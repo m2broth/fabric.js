@@ -193,6 +193,7 @@
       this.callSuper('_clearCache');
       this.__maxFontHeights = [ ];
       this.__widthOfSpace = [ ];
+      this._charWidthsCache = [ ];
     },
 
     /**
